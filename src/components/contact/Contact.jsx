@@ -42,7 +42,7 @@ const Contact = () => {
                             <i className="uil uil-line contact_card-icon"></i>
                             <h3 className="contact_card-title">Line</h3>
                             <span className="contact_card-data">akutwiboykamuapa</span>
-                            <a href="https://wa.me/085156883552" className="contact_button">Write Me {" "} <i className="uil uil-arrow-right contact_button-icon"></i></a>
+                            <a href="https://line.me/ti/p/2LINPy3qfa" className="contact_button">Write Me {" "} <i className="uil uil-arrow-right contact_button-icon"></i></a>
 
                         </div>
                     </div>
