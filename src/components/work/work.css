@@ -1,0 +1,124 @@
+.work_filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.75rem;
+    margin-bottom: var(--mb-2);
+}
+
+.work_item{
+    cursor: pointer;
+    color: var(--title-color);
+    padding: 0.25rem 0.75rem;
+    font-weight: var(--font-medium);
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+
+.work_item:hover{
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.work_container{
+    grid-template-columns: repeat(3, max-content);
+    gap: 3rem;
+    justify-content: center;
+}
+
+.work_card{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 1rem;
+}
+
+.work_img{
+    width: 295px;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+}
+
+.work_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
+.work_subtitle{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
+.work_button{
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.work_button-icon{
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+.work_button:hover .work_button-icon{
+    transform: translateX(0.25rem);
+}
+
+/*active work */
+.active-work{
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .work_container {
+      gap: 1.25rem;
+    }
+    
+    .work_card{
+        padding: 1rem;
+    }
+    
+    .work_img{
+        margin-bottom: 0.75rem;
+    }
+
+    .work_title{
+        margin-bottom: 0.25rem;
+    }
+  }
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .work_container{
+        grid-template-columns: max-content;
+    }    
+}
+
+@media screen and (max-width: 576px) {
+    .work_container{
+        grid-template-columns: 1fr;
+    }
+    .work_img{
+        width: 100%;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .work_item{
+        font-size: var(--small-font-size);
+    }
+
+    .work_filters{
+        column-gap: 0.25rem;
+    }
+  }
+    
