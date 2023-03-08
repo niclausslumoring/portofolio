@@ -7,6 +7,10 @@ import Work6 from '../../assets/work6.jpg';
 import Work7 from '../../assets/work7.jpg';
 import Work8 from '../../assets/work8.png';
 import Work9 from '../../assets/work9.jpg';
+import Work10 from '../../assets/work10.jpg';
+import Work11 from '../../assets/work11.jpg';
+import Work12 from '../../assets/work12.jpg';
+
 
 export const projectsData = [
     {
@@ -62,6 +66,24 @@ export const projectsData = [
         image: Work9,
         title: 'PHP Recruitment Application',
         category: 'software engineer'
+    },
+    {
+        id: 10,
+        image: Work10,
+        title: 'Online Clothing Store',
+        category: 'web design'
+    },
+    {
+        id: 11,
+        image: Work11,
+        title: 'Collecting Star Game',
+        category: 'web design'
+    },
+    {
+        id: 12,
+        image: Work12,
+        title: 'Snake Game',
+        category: 'web design'
     },
 ];
 
