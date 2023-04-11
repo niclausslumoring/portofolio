@@ -17,7 +17,7 @@ const Backend = () => {
                     <div className="skills_data">
                         <i class="uil uil-check-circle"></i>
                         <div>
-                            <h3 className="skills_name">My SQL</h3>
+                            <h3 className="skills_name">SQL</h3>
                             <span className="skills_level">Advance</span>
                         </div>    
                     </div>
@@ -36,7 +36,7 @@ const Backend = () => {
                     <div className="skills_data">
                         <i class="uil uil-check-circle"></i>
                         <div>
-                            <h3 className="skills_name">Node JS</h3>
+                            <h3 className="skills_name">Laravel</h3>
                             <span className="skills_level">Intermediete</span>
                         </div>    
                     </div>

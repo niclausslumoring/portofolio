@@ -44,7 +44,7 @@ const Frontend = () => {
                     <div className="skills_data">
                         <i class="uil uil-check-circle"></i>
                         <div>
-                            <h3 className="skills_name">Figma</h3>
+                            <h3 className="skills_name">Phaser</h3>
                             <span className="skills_level">Intermediete</span>
                         </div>    
                     </div>
