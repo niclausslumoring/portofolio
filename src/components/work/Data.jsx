@@ -1,7 +1,6 @@
 import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import MySkill from "../../assets/myskill.png";
-import Work4 from "../../assets/work4.jpg";
+import Work2 from "../../assets/work2.png";
+import Work4 from "../../assets/work4.png";
 import Work6 from "../../assets/work6.png";
 import Work8 from "../../assets/work8.png";
 import Work9 from "../../assets/work9.jpg";
@@ -9,12 +8,17 @@ import Work11 from "../../assets/work11.jpg";
 import Work12 from "../../assets/work12.jpg";
 import Work13 from "../../assets/work3-detail.png";
 import Work14 from "../../assets/work13.png";
-import Mawar from "../../assets/mawar.jpg";
-import InRange from "../../assets/inrange.png";
+import Mawar from "../../assets/mawar.png";
 import AboutUs from "../../assets/aboutusbackboard.png";
 import Feature from "../../assets/ourservicebackboard.png";
 import Services from "../../assets/toursbackroad.png";
 import Vision from "../../assets/vision.png";
+import MySkill from "../../assets/myskill.png";
+import SimpleCurencyConverterFront from "../../assets/currencyconverterFront.png";
+import SimpleCurencyConverter from "../../assets/currencyconverter.png";
+import Shooting from "../../assets/shooting.png";
+import GameOver from "../../assets/gameovercorona.png";
+import Sanitizer from "../../assets/sanitizer.png";
 
 export const projectsData = [
   {
@@ -22,7 +26,6 @@ export const projectsData = [
     image: Work1,
     title: "Vision Face Detection",
     image_detail: Mawar,
-    image_detail2: InRange,
     image_detail3: Vision,
     category: "data science",
     detail_job:
@@ -79,6 +82,8 @@ export const projectsData = [
     date_job: "February 2023",
     image_detail: Work11,
     language: "Javascript using Phaser Framework",
+    link: "https://collectingstar-byniclauss.netlify.app/",
+    link_placeholder: "Game Link",
   },
   {
     id: 6,
@@ -99,12 +104,39 @@ export const projectsData = [
     title: "Backroads Tour App",
     category: "web design",
     detail_job:
-      "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "I enrolled in a React 18 Tutorial and Projects Course (2023) on Udemy, where I worked on various projects. One of the projects I completed was a web-based app called Backroads, which was created using React JS and designed to function like a tour website.",
     image_detail: Feature,
     image_detail2: Services,
     image_detail3: AboutUs,
     language: "React JS",
     date_job: "April 2023",
+  },
+  {
+    id: 8,
+    image: SimpleCurencyConverterFront,
+    title: "Simple Currency Converter",
+    category: "Backend Developer",
+    detail_job:
+      "I enrolled in a Udemy course called 'Android O App Development using Java & Kotlin - build real apps'. As part of the course, I developed a basic currency converter app that can convert input values in Rupiah to USD and display the result as a toast message.",
+    image_detail: SimpleCurencyConverter,
+    language: "Java (Android Studio)",
+    date_job: "April 2023",
+  },
+  {
+    id: 9,
+    image: Shooting,
+    title: "Corona Buster Game",
+    category: "web design",
+    detail_job:
+      "As a teacher at Timedoor Programming Academy, I created a game using the Phaser Framework where the player's goal is to shoot down enemy coronavirus. Each successful hit earns the player points. However, if the player's ship gets hit by the coronavirus, their health points decrease. To help the player, I also included hand sanitizer in the game, which restores their health points when collected.",
+    date_job: "March 2023",
+    image_detail: Sanitizer,
+    image_detail2: GameOver,
+    detail_job_2:
+      "Once the user loses the game, they will be directed to a game over scene page.",
+    language: "Javascript using Phaser Framework",
+    link: "https://corona-buster-byniclauss.netlify.app/",
+    link_placeholder: "Game Link",
   },
 ];
 

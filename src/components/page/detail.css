@@ -62,3 +62,63 @@
 .img-container img {
   margin: 0;
 }
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .detail_container {
+    width: 80vw;
+    margin: 10px;
+  }
+  .detail_container .details {
+    padding: 20px;
+  }
+  .detail_container .details h2 {
+    font-size: 2em;
+    padding-top: 3vh;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .detail_container {
+    width: 90vw;
+    margin: 10px;
+  }
+  .detail_container .details {
+    padding: 10px;
+  }
+  .detail_container .details h2 {
+    font-size: 1.8em;
+    padding-top: 3vh;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  .detail_container {
+    width: 100vw;
+    margin: 5px;
+  }
+  .detail_container .details {
+    padding: 5px;
+  }
+  .detail_container .details h2 {
+    font-size: 1.6em;
+    padding-top: 3vh;
+  }
+}
+
+/* For extra small devices */
+@media screen and (max-width: 350px) {
+  .detail_container {
+    width: 100vw;
+    margin: 5px;
+  }
+  .detail_container .details {
+    padding: 5px;
+  }
+  .detail_container .details h2 {
+    font-size: 1.4em;
+    padding-top: 3vh;
+  }
+}
