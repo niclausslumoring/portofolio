@@ -11,7 +11,11 @@ const WorkItems = ({ item }) => {
       </a>
       <Link
         to={
-          item.title === "Data Science" ? "/datascience" : `/detail/${item.id}`
+          item.title === "365 Data Science"
+            ? "/datascience"
+            : item.title === "Timedoor"
+            ? "/timedoor"
+            : `/detail/${item.id}`
         }
         className="services_button"
       >

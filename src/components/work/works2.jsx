@@ -1,15 +1,16 @@
 import React from "react";
-import { useEffect } from "react";
 import { useState } from "react";
-import { projectsData } from "./Data2";
-import WorkItems from "./WorkItems";
 
-const Works = () => {
+const Works = ({ projectsData }) => {
   const [projects, setProjects] = useState(0);
 
   let handleClick = (e, index) => {
     setProjects(index);
   };
+
+  if (!projectsData) {
+    return <h1>Loading...</h1>;
+  }
 
   return (
     <div>
