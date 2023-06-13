@@ -15,10 +15,12 @@ import Vision from "../../assets/vision.png";
 import MySkill from "../../assets/myskill.png";
 import SimpleCurencyConverterFront from "../../assets/currencyconverterFront.png";
 import SimpleCurencyConverter from "../../assets/currencyconverter.png";
-import Shooting from "../../assets/shooting.png";
 import DataScience0 from "../../assets/365-Data-Science.png";
 import BookStore from "../../assets/bookstore.png";
 import Work15 from "../../assets/work14.png";
+import AndoridProject from "../../assets/top features.png";
+import AndoridProject2 from "../../assets/tf2.png";
+import BannerLogin from "../../assets/bannerloginpage.jpg";
 
 export const projectsData = [
   {
@@ -106,7 +108,7 @@ export const projectsData = [
   {
     id: 9,
     image: Work3,
-    title: "Timedoor",
+    title: "Game Developer [Timedoor]",
     category: "web design",
   },
   {
@@ -119,6 +121,18 @@ export const projectsData = [
     date_job: "Mei 2023",
     image_detail: Work15,
     language: "Laravel",
+  },
+  {
+    id: 14,
+    image: BannerLogin,
+    title: "Jsteam",
+    category: "web design",
+    detail_job:
+      "I build a android application using android studio. This app that i build is called jsteam, so jsteam is the app to see game list and you can review on that game also. You can see jsteam location, also the login verification require OTP",
+    date_job: "Mei 2023",
+    image_detail: AndoridProject2,
+    image_detail2: AndoridProject,
+    language: "Java",
   },
 ];
 
