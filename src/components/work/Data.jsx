@@ -21,6 +21,8 @@ import Work15 from "../../assets/work14.png";
 import AndoridProject from "../../assets/top features.png";
 import AndoridProject2 from "../../assets/tf2.png";
 import BannerLogin from "../../assets/bannerloginpage.jpg";
+import UAPnlp from "../../assets/UAPnlp.png";
+import BannerUAPnlp from "../../assets/bannerNLPUAP.jpg";
 
 export const projectsData = [
   {
@@ -124,9 +126,20 @@ export const projectsData = [
   },
   {
     id: 14,
+    image: BannerUAPnlp,
+    title: "Opinion Analysis",
+    category: "data science",
+    detail_job:
+      "I create a menu. So basicly there is 2 data set, first one is postive text dataaset and the second one is negative text dataset. So the menu include 2 option. The fist one is to input opinion that want to be analyze. And the second one is print all the list opinion inputed, and let user choose first, after that the opinion choosed will be analyze categorized as positive or negative",
+    date_job: "June 2023",
+    image_detail: UAPnlp,
+    language: "Python",
+  },
+  {
+    id: 15,
     image: BannerLogin,
     title: "Jsteam",
-    category: "web design",
+    category: "backend developer",
     detail_job:
       "I build a android application using android studio. This app that i build is called jsteam, so jsteam is the app to see game list and you can review on that game also. You can see jsteam location, also the login verification require OTP",
     date_job: "Mei 2023",
