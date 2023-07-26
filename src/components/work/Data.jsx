@@ -23,6 +23,8 @@ import AndoridProject2 from "../../assets/tf2.png";
 import BannerLogin from "../../assets/bannerloginpage.jpg";
 import UAPnlp from "../../assets/UAPnlp.png";
 import BannerUAPnlp from "../../assets/bannerNLPUAP.jpg";
+import PaperStock from "../../assets/paper.png";
+import PaperBanner from "../../assets/paperbanner.png";
 
 export const projectsData = [
   {
@@ -146,6 +148,19 @@ export const projectsData = [
     image_detail: AndoridProject2,
     image_detail2: AndoridProject,
     language: "Java",
+  },
+  {
+    id: 16,
+    image: PaperBanner,
+    title: "Forecasting Stock Price Paper",
+    category: "data science",
+    detail_job:
+      "With the increasing popularity of stock trading, individuals, and financial entities such as investment companies, hedge funds, and retail investors are actively participating in the stock market to generate profits. Numerous strategies, ranging from traditional methods employing fundamental and technical analysis to modern approaches utilizing cutting-edge technology, have been developed and implemented. However, determining the optimal method remains challenging. Designing an effective strategy in the complex and dynamic stock market environment poses significant difficulties. Therefore, this study aims to provide an overview of machine learning applications in the stock market and identify the most frequently used machine learning models or methods for market prediction. Furthermore, the study aims to identify the strategy that achieves the highest accuracy in predicting stock prices. Based on a systematic literature review encompassing quantitative and qualitative analyses, it is found that Support Vector Machine (SVM) emerges as the most popular machine learning technique for predicting stock prices. However, Long Short-Term Memory (LSTM) stands out as the machine learning technique that demonstrates the highest level of accuracy, achieving an impressive accuracy rate of 99.58%. These findings highlight the effectiveness of LSTM in forecasting stock values with exceptional precision. The results of this study contribute to a comprehensive understanding of machine learning in the stock market domain and offer valuable insights for developing effective trading strategies. Traders and investors can leverage LSTM and SVM techniques to enhance their stock market predictions and make informed investment decisions.",
+    date_job: "Mei 2023",
+    image_detail: PaperStock,
+    link: "https://binusianorg-my.sharepoint.com/personal/niclauss_lumoring_binus_ac_id/_layouts/15/guestaccess.aspx?share=EWNQNr2sElpAjVBkBJRN2uQBrdg9GrUpV_ZuMqz-BwUmFw&e=MAFndc",
+    link_placeholder: "See Paper",
+    language: "Python",
   },
 ];
 
