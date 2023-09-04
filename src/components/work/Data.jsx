@@ -25,6 +25,11 @@ import UAPnlp from "../../assets/UAPnlp.png";
 import BannerUAPnlp from "../../assets/bannerNLPUAP.jpg";
 import PaperStock from "../../assets/paper.png";
 import PaperBanner from "../../assets/paperbanner.png";
+import IcosdaCertificate from "../../assets/icosda.png";
+import ZapBanner from "../../assets/zap-banner.png";
+import ZapEstore from "../../assets/e-store.png";
+import ZapFAQLiputan from "../../assets/faq-liputan.png";
+import ZapArticle from "../../assets/article.png";
 
 export const projectsData = [
   {
@@ -89,7 +94,7 @@ export const projectsData = [
     id: 7,
     image: Work14,
     title: "Backroads Tour App",
-    category: "web design",
+    category: "web developer",
     detail_job:
       "I enrolled in a React 18 Tutorial and Projects Course (2023) on Udemy, where I worked on various projects. One of the projects I completed was a web-based app called Backroads, which was created using React JS and designed to function like a tour website.",
     image_detail: Feature,
@@ -113,13 +118,13 @@ export const projectsData = [
     id: 9,
     image: Work3,
     title: "Game Developer [Timedoor]",
-    category: "web design",
+    category: "web developer",
   },
   {
     id: 13,
     image: BookStore,
     title: "Jramedia",
-    category: "web design",
+    category: "web developer",
     detail_job:
       "I build a website with PHP and Laravel that serves as the final destination for buying books and office supplies. This website can browse a broad selection of books and office supplies, a sizable product catalog, and a safe checkout procedure. Take advantage of convenient order tracking, easy search options, and personalized recommendations",
     date_job: "Mei 2023",
@@ -158,9 +163,23 @@ export const projectsData = [
       "With the increasing popularity of stock trading, individuals, and financial entities such as investment companies, hedge funds, and retail investors are actively participating in the stock market to generate profits. Numerous strategies, ranging from traditional methods employing fundamental and technical analysis to modern approaches utilizing cutting-edge technology, have been developed and implemented. However, determining the optimal method remains challenging. Designing an effective strategy in the complex and dynamic stock market environment poses significant difficulties. Therefore, this study aims to provide an overview of machine learning applications in the stock market and identify the most frequently used machine learning models or methods for market prediction. Furthermore, the study aims to identify the strategy that achieves the highest accuracy in predicting stock prices. Based on a systematic literature review encompassing quantitative and qualitative analyses, it is found that Support Vector Machine (SVM) emerges as the most popular machine learning technique for predicting stock prices. However, Long Short-Term Memory (LSTM) stands out as the machine learning technique that demonstrates the highest level of accuracy, achieving an impressive accuracy rate of 99.58%. These findings highlight the effectiveness of LSTM in forecasting stock values with exceptional precision. The results of this study contribute to a comprehensive understanding of machine learning in the stock market domain and offer valuable insights for developing effective trading strategies. Traders and investors can leverage LSTM and SVM techniques to enhance their stock market predictions and make informed investment decisions.",
     date_job: "Mei 2023",
     image_detail: PaperStock,
+    image_detail2: IcosdaCertificate,
     link: "https://binusianorg-my.sharepoint.com/personal/niclauss_lumoring_binus_ac_id/_layouts/15/guestaccess.aspx?share=EWNQNr2sElpAjVBkBJRN2uQBrdg9GrUpV_ZuMqz-BwUmFw&e=MAFndc",
     link_placeholder: "See Paper",
     language: "Python",
+  },
+  {
+    id: 17,
+    image: ZapBanner,
+    title: "ZAP Klinik Kecantikan",
+    category: "web developer",
+    detail_job:
+      "My task involves developing the Zap Klinik Kecantikan's website using the Tailwind CSS framework. This project encompasses various essential pages, including a captivating banner that sets the tone for the entire website. Additionally, I'm creating the Liputan page, ensuring it's informative and engaging. The FAQ page will provide users with answers to common queries, while the Article Page will be a platform for informative content. Lastly, the E-Store page will allow seamless online shopping. Throughout this project, a key focus is ensuring that all these pages are not only visually appealing but also fully responsive, delivering an excellent user experience across different devices and screen sizes.",
+    date_job: "August 2023",
+    image_detail: ZapEstore,
+    image_detail2: ZapFAQLiputan,
+    image_detail3: ZapArticle,
+    language: "Tailwind",
   },
 ];
 
@@ -169,7 +188,7 @@ export const projectNav = [
     name: "all",
   },
   {
-    name: "web design",
+    name: "web developer",
   },
   {
     name: "backend developer",

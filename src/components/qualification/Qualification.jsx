@@ -72,10 +72,10 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">
-                    Udemy Academy
-                </h3>
-                <span className="qualification_subtitle">Data Science, Backend, Frontend</span>
+                <h3 className="qualification_title">Udemy Academy</h3>
+                <span className="qualification_subtitle">
+                  Data Science, Backend, Frontend
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i> 2023 - Present
                 </div>
@@ -124,12 +124,12 @@ const Qualification = () => {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Coding Tutor</h3>
+                <h3 className="qualification_title">Software Engineer</h3>
                 <span className="qualification_subtitle">
-                  PT. Timedoor Indonesia
+                  PT. Merkle Inovasi Teknologi
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i> 2022 - Present
+                  <i className="uil uil-calender-alt"></i> 2023 - Present
                 </div>
               </div>
 
@@ -145,6 +145,18 @@ const Qualification = () => {
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
               </div>
+              <div>
+                <h3 className="qualification_title">Coding Tutor</h3>
+                <span className="qualification_subtitle">
+                  PT. Timedoor Indonesia
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calender-alt"></i> 2022 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">Business Partner</h3>
                 <span className="qualification_subtitle">
@@ -154,12 +166,34 @@ const Qualification = () => {
                   <i className="uil uil-calender-alt"></i> 2020 - 2022
                 </div>
               </div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
+
+            <div className="qualification_data">
+              <div></div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+              <div>
+                <h3 className="qualification_title">Squad</h3>
+                <span className="qualification_subtitle">Ternak Uang</span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calender-alt"></i> 2019
+                </div>
+              </div>
             </div>
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Squad</h3>
-                <span className="qualification_subtitle">Ternak Uang</span>
+                <h3 className="qualification_title">Pool Patrol</h3>
+                <span className="qualification_subtitle">
+                  PT. Fantasia Utama Nuansa
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i> 2019
                 </div>
@@ -178,18 +212,6 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Pool Patrol</h3>
-                <span className="qualification_subtitle">
-                  PT. Fantasia Utama Nuansa
-                </span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i> 2019
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div>
                 <h3 className="qualification_title">Tutor</h3>
                 <span className="qualification_subtitle">
                   Julio and Elsa Bimbel
@@ -197,11 +219,6 @@ const Qualification = () => {
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i> 2016 - 2019
                 </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
               </div>
             </div>
           </div>
