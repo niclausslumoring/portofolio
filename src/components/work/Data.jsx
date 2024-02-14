@@ -30,6 +30,18 @@ import ZapBanner from "../../assets/zap-banner.png";
 import ZapEstore from "../../assets/e-store.png";
 import ZapFAQLiputan from "../../assets/faq-liputan.png";
 import ZapArticle from "../../assets/article.png";
+import JoindoLogo from "../../assets/jeh-logo.png";
+import Joindo1 from "../../assets/joindo1.png";
+import Joindo2 from "../../assets/joindo2.png";
+import Joindo3 from "../../assets/joindo3.png";
+import CyberLogo from "../../assets/cyberlogo.png";
+import cyber1 from "../../assets/cyber1.png";
+import cyber2 from "../../assets/cyber2.png";
+import cyber3 from "../../assets/cyber3.png";
+import SkripsiLogo from "../../assets/Skripsi.png";
+import Skripsi1 from "../../assets/Skripsi1.png";
+import Skripsi2 from "../../assets/Skripsi2.png";
+import Skrips3 from "../../assets/Skripsi3.png";
 
 export const projectsData = [
   {
@@ -111,12 +123,12 @@ export const projectsData = [
     language: "Java (Android Studio)",
     date_job: "April 2023",
   },
-  {
-    id: 9,
-    image: Work3,
-    title: "Game Developer [Timedoor]",
-    category: "web developer",
-  },
+  // {
+  //   id: 9,
+  //   image: Work3,
+  //   title: "Game Developer [Timedoor]",
+  //   category: "web developer",
+  // },
   {
     id: 13,
     image: BookStore,
@@ -178,6 +190,49 @@ export const projectsData = [
     language: "Tailwind",
     link_placeholder: "See Full Website",
     link: "https://zapclinic.com/",
+  },
+  {
+    id: 18,
+    image: JoindoLogo,
+    title: "Joindeh",
+    category: "web developer",
+    detail_job:
+      "My assignment entails building the Joindeh website utilizing the Tailwind CSS framework. I've ensured that all pages on the site are responsive, tailored specifically for mobile and laptop screens. I translated the design from Figma into code and deployed it using hosting services.",
+    date_job: "February 2024",
+    image_detail: Joindo1,
+    image_detail2: Joindo2,
+    image_detail3: Joindo3,
+    language: "Tailwind",
+    link_placeholder: "See Full Website",
+    link: "https://joindeh.com/",
+  },
+  {
+    id: 19,
+    image: CyberLogo,
+    title: "Cyberspace",
+    category: "web developer",
+    detail_job:
+      "My assignment entails building the Cyberspace website utilizing the Tailwind CSS framework. I've ensured that all pages on the site are responsive, tailored specifically for mobile and laptop screens. I translated the design from Figma into code and deployed it using hosting services.",
+    date_job: "February 2024",
+    image_detail: cyber1,
+    image_detail2: cyber2,
+    image_detail3: cyber3,
+    language: "Tailwind",
+    link_placeholder: "See Full Website",
+    link: "https://www.cyberspace.co.id/",
+  },
+  {
+    id: 20,
+    image: SkripsiLogo,
+    title: "My Thesis",
+    category: "data science",
+    detail_job:
+      "In its evolution, the agricultural industry in Indonesia requires advanced technology, particularly in the field of AI. One application is the use of AI in image classification for sorting tomato ripeness. Manual sorting of tomato ripeness proves ineffective and inefficient, prompting the development of an automatic tomato sorting application based on the EfficientNetB0 model. The initial stage involves comparing various CNN models, including VGG-16, VGG-19, ResNet-50, EfficientNetB0, and a custom CNN model. The accuracy results are as follows, in order: 93%, 94%, 42%, 98%, and 48.2%. EfficientNetB0 emerges as the most accurate model from the comparison. Consequently, this model will be deployed as an application to automate the classification of tomato ripeness levels. ",
+    date_job: "February 2024",
+    image_detail: Skripsi1,
+    image_detail2: Skripsi2,
+    image_detail3: Skrips3,
+    language: "Python",
   },
 ];
 
