@@ -60,8 +60,7 @@ export const projectsData = [
     detail_job:
       "I'm using computer vision for this project. For the purpose of detecting hand gestures, I developed a hand detection module using Python. This way, if I ever work on another project that relies heavily on hand gestures, I can simply use the module I developed. I developed a gesture-based volume control, for instance, which needed hand motion recognition as part of the main project component.",
     date_job: "January 2023",
-    detail_job_2:
-      "Here is my documentation of implementing the use of a module I created to enable volume control through gestures.",
+    detail_job_2: "Here is my documentation of implementing the use of a module I created to enable volume control through gestures.",
     language: "Python",
   },
   {
@@ -95,8 +94,7 @@ export const projectsData = [
     image: Work14,
     title: "Backroads Tour App",
     category: "web developer",
-    detail_job:
-      "I enrolled in a React 18 Tutorial and Projects Course (2023) on Udemy, where I worked on various projects. One of the projects I completed was a web-based app called Backroads, which was created using React JS and designed to function like a tour website.",
+    detail_job: "I enrolled in a React 18 Tutorial and Projects Course (2023) on Udemy, where I worked on various projects. One of the projects I completed was a web-based app called Backroads, which was created using React JS and designed to function like a tour website.",
     image_detail: Feature,
     image_detail2: Services,
     image_detail3: AboutUs,
@@ -108,8 +106,7 @@ export const projectsData = [
     image: SimpleCurencyConverterFront,
     title: "Simple Currency Converter",
     category: "Backend Developer",
-    detail_job:
-      "I enrolled in a Udemy course called 'Android O App Development using Java & Kotlin - build real apps'. As part of the course, I developed a basic currency converter app that can convert input values in Rupiah to USD and display the result as a toast message.",
+    detail_job: "I enrolled in a Udemy course called 'Android O App Development using Java & Kotlin - build real apps'. As part of the course, I developed a basic currency converter app that can convert input values in Rupiah to USD and display the result as a toast message.",
     image_detail: SimpleCurencyConverter,
     language: "Java (Android Studio)",
     date_job: "April 2023",
@@ -147,8 +144,7 @@ export const projectsData = [
     image: BannerLogin,
     title: "Jsteam",
     category: "backend developer",
-    detail_job:
-      "I build a android application using android studio. This app that i build is called jsteam, so jsteam is the app to see game list and you can review on that game also. You can see jsteam location, also the login verification require OTP",
+    detail_job: "I build a android application using android studio. This app that i build is called jsteam, so jsteam is the app to see game list and you can review on that game also. You can see jsteam location, also the login verification require OTP",
     date_job: "Mei 2023",
     image_detail: AndoridProject2,
     image_detail2: AndoridProject,
@@ -180,6 +176,8 @@ export const projectsData = [
     image_detail2: ZapFAQLiputan,
     image_detail3: ZapArticle,
     language: "Tailwind",
+    link_placeholder: "See Full Website",
+    link: "https://zapclinic.com/",
   },
 ];
 
