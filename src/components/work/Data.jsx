@@ -38,6 +38,10 @@ import CyberLogo from "../../assets/cyberlogo.png";
 import cyber1 from "../../assets/cyber1.png";
 import cyber2 from "../../assets/cyber2.png";
 import cyber3 from "../../assets/cyber3.png";
+import MbLogo from "../../assets/mblogo.png";
+import Mb1 from "../../assets/mb1.png";
+import Mb2 from "../../assets/mb2.png";
+import Mb3 from "../../assets/mb3.png";
 import SkripsiLogo from "../../assets/Skripsi.png";
 import Skripsi1 from "../../assets/Skripsi1.png";
 import Skripsi2 from "../../assets/Skripsi2.png";
@@ -233,6 +237,21 @@ export const projectsData = [
     image_detail2: Skripsi2,
     image_detail3: Skrips3,
     language: "Python",
+  },
+  {
+    id: 21,
+    image: MbLogo,
+    title: "Makeblock",
+    category: "web developer",
+    detail_job:
+      "My assignment entails building the Makeblock website utilizing the Tailwind CSS framework. I've ensured that all pages on the site are responsive, tailored specifically for mobile and laptop screens. I translated the design from Figma into code and deployed it using hosting services. ",
+    date_job: "February 2024",
+    image_detail: Mb1,
+    image_detail2: Mb2,
+    image_detail3: Mb3,
+    language: "Tailwind",
+    link_placeholder: "See Full Website",
+    link: "https://makeblock.vercel.app/index.html",
   },
 ];
 
