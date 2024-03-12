@@ -251,7 +251,7 @@ export const projectsData = [
     image_detail3: Mb3,
     language: "Tailwind",
     link_placeholder: "See Full Website",
-    link: "https://makeblock.vercel.app/index.html",
+    link: "https://www.makeblock.id/",
   },
 ];
 
